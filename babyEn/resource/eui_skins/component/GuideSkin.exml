@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuideSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+	<e:Group id="rect_bg" y="0" x="0" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" fillAlpha="0.6" />
+		<e:Label id="info" text="对齐后，按下按钮让小鸟停下来吧" anchorOffsetX="0" width="883.73" anchorOffsetY="0" height="91.21" size="40"
+		          strokeColor="0xfff2c3" textAlign="center" verticalAlign="middle" wordWrap="true" stroke="3"
+		         horizontalCenter="0" y="30" textColor="0x703d0d" />
+	</e:Group>
+
+</e:Skin>

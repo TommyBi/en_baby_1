@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ItembkSkin" minHeight="50" minWidth="100"  xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="info" x="0" y="0" source="buttons_png"/>
+
+	<e:Group id="anGp" y="0" x="0"/>
+	<e:Label id="num" text="11111" size="40" stroke="3" strokeColor="0x1dc60e" y="22" verticalAlign="middle" horizontalCenter="-4" />
+
+</e:Skin>

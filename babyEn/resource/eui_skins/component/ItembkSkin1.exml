@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ItembkSkin1" minHeight="50" minWidth="100"  xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="178" height="140">
+	<e:Image x="0" y="0" source="qizi_png" visible="false"/>
+	<e:Image source="muzhuang_png" x="55" y="100" visible="false"/>
+	<e:Label id="num" text="" x="70" y="16" anchorOffsetX="0" width="78" anchorOffsetY="0" height="38" verticalAlign="middle" textAlign="center" size="24"  stroke="2" strokeColor="0x7c1725" visible="false"/>
+</e:Skin>

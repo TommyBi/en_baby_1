@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="BattleSkin" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bgRc" width="1920" height="1080" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="infoGP" width="1016.06" horizontalCenter="0" verticalCenter="0.5" anchorOffsetX="0">
+		<e:Image y="0" source="item_bg1_png" horizontalCenter="0"/>
+		<e:Image id="info" y="224" horizontalCenter="0" source="icon_bg0_png"/>
+		<e:Group id="cbtn" y="658" touchEnabled="false" horizontalCenter="0">
+			<e:Button label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="daan_png" source.down="daan_anxia_png" width.down="96%" height.down="96%" horizontalCenter.down="0" verticalCenter.down="0" horizontalCenter.up="0" verticalCenter.up="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0.5" verticalCenter="-5.5" size="48" textColor="0xffffff" stroke="3" strokeColor="0x1dc60e" text="dd"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button label="" x="10" y="10">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="daan_png" source.down="daan_anxia_png" width.down="96%" height.down="96%" horizontalCenter.down="0" verticalCenter.down="0" horizontalCenter.up="0" verticalCenter.up="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0.5" verticalCenter="-5.5" size="48" textColor="0xffffff" stroke="3" strokeColor="0x1dc60e" text="dd"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button label="" x="20" y="20">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="daan_png" source.down="daan_anxia_png" width.down="96%" height.down="96%" horizontalCenter.down="0" verticalCenter.down="0" horizontalCenter.up="0" verticalCenter.up="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0.5" verticalCenter="-5.5" size="48" textColor="0xffffff" stroke="3" strokeColor="0x1dc60e" text="dd"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+			<e:HorizontalLayout gap="30"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="anGP" width="1920" height="1080" x="0" y="0" touchEnabled="true" visible="false">
+		<e:Label text="获得金币:10" size="60" strokeColor="0xaa4801" stroke="3" horizontalCenter="0" verticalCenter="150" x="798" y="530" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

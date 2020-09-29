@@ -1,0 +1,27 @@
+{
+	"skins": {
+		"Index": "resource/eui_skins/Index.exml",
+		"GameSkin": "resource/eui_skins/component/GameSkin.exml",
+		"FinishSkin": "resource/eui_skins/component/FinishSkin.exml",
+		"ItembkSkin": "resource/eui_skins/component/itembkSkin.exml",
+		"ItembkSkin1": "resource/eui_skins/component/itembkSkin1.exml",
+		"Box": "resource/eui_skins/component/Box.exml",
+		"QuestionSkin": "resource/eui_skins/component/QuestionSkin.exml"
+	},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/eui_skins/component/BattleSkin.exml",
+		"resource/eui_skins/component/BoxSkin.exml",
+		"resource/eui_skins/component/FinishSkin.exml",
+		"resource/eui_skins/component/FinishSkin1.exml",
+		"resource/eui_skins/component/GameSkin.exml",
+		"resource/eui_skins/component/GuideSkin.exml",
+		"resource/eui_skins/component/ItembkSkin.exml",
+		"resource/eui_skins/component/ItembkSkin1.exml",
+		"resource/eui_skins/component/ItembkSkin2.exml",
+		"resource/eui_skins/component/QuestionSkin.exml",
+		"resource/eui_skins/component/WorldGameSkin.exml",
+		"resource/eui_skins/Index.exml"
+	],
+	"path": "resource/default.thm.json"
+}

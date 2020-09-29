@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSkinSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+	<w:Declarations></w:Declarations>
+	<w:Config id="16826ef5e60"></w:Config>
+	<e:Group id="macb" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"/>
+	<e:Image x="0" y="0" source="sceneBg_png"/>
+
+	<e:Group id="animationGroup" y="0" x="0" anchorOffsetX="0" anchorOffsetY="0">
+	</e:Group>
+	<e:Image x="0" y="0" source="_bg_jpg" visible="false"/>
+	<e:Group id="infos" y="7" horizontalCenter="0" visible="false">
+
+		<e:Label id="info" text="点击你喜欢的甜品。" anchorOffsetX="0" width="1010.94" anchorOffsetY="0" height="91.21" size="40"  strokeColor="0xfff2c3" textAlign="center" verticalAlign="middle" wordWrap="true" stroke="3" horizontalCenter="-41.5" y="21" textColor="0xaa4801"/>
+	</e:Group>
+	<e:Group y="0" horizontalCenter="0" visible="false">
+		<e:Image source="score_bg_png" x="0" y="0"/>
+		<e:Label id="score" text="0分" x="12" y="56.73" anchorOffsetX="0" width="144" anchorOffsetY="0" height="40" size="48"  textColor="0x018e00" textAlign="center"/>
+	</e:Group>
+	<e:Group id="zhezhao" width="0" height="0" y="846" x="10" visible="false"/>
+	<e:Group id="macb0" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"/>
+	<e:Group id="questionGp" x="0" y="0"/>
+	<e:Group y="10" left="34">
+		<e:Image source="clock_png" x="0" y="0"/>
+		<e:Label id="clock" text="0" x="14" y="42" anchorOffsetY="0" height="68" anchorOffsetX="0" width="102" size="48" textAlign="center" verticalAlign="middle" textColor="0xa84901"/>
+	</e:Group>
+	<e:Group id="team" x="258" y="281" width="1320">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" gap="215"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="set_group" x="1769" y="15" visible="false">
+	<e:Image source="shezhi_bord_png" x="0.5" y="0"/>
+	<e:Image id="music" source="music_png" x="0" y="141" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="reset" source="revise_png" x="0" y="280" scaleX="1" scaleY="1" alpha="1" anchorOffsetX="0" anchorOffsetY="0"/>
+ 	</e:Group>
+	<e:Image id="set_img" source="shezhi_png" x="1832" y="79" anchorOffsetX="62.5" anchorOffsetY="64"/>
+
+</e:Skin>
