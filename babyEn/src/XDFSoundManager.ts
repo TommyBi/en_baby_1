@@ -3,28 +3,6 @@ class XDFSoundManager {
 
     }
 
-    // private static _instance: XDFSoundManager;
-    // private static getInstance(): XDFSoundManager {
-    //     if (!this._instance) {
-    //         this._instance = new XDFSoundManager();
-    //     }
-    //     return this._instance;
-    // }
-
-    // private _volume: number = 0.5;
-    // //设置所有音量
-    // set volume(volume: number) {
-    //     volume = Math.min(volume, 1);
-    //     volume = Math.max(volume, 0);
-    //     this._volume = volume;
-    //     for (let url in this._musicHash) {
-    //         this._musicHash[url].volume = volume;
-    //     }
-    // }
-    // get volume() {
-    //     return this._volume;
-    // }
-
     private static _musicHash: { [key: string]: Sound } = {};
     static play(url: string, startTime?: number, loops?: number, volume?: number, key = url, func?) {
         if (!this._musicHash[key]) {

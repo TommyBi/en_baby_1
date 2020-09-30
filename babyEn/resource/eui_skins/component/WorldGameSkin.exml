@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<e:Skin class="WorldGameSkin" minHeight="50" minWidth="100"  xmlns:e="http://ns.egret.com/eui"
-        xmlns:w="http://ns.egret.com/wing">
-	<e:Group width="438.67" height="414.67" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0"/>
-</e:Skin>

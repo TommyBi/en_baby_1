@@ -164,12 +164,8 @@ var Main = (function (_super) {
      * Create scene interface
      */
     Main.prototype.createGameScene = function () {
-        var body = new Index();
-        this.addChild(body);
         this.addChild(new XDFLogoComponent());
         window.platform.sendMessage(10001, "", -1);
-        // var worldGame = new WorldGame(0,0);
-        // this.addChild(worldGame)
     };
     Main.prototype.loadMusic = function () {
         return __awaiter(this, void 0, void 0, function () {

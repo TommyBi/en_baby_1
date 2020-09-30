@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<e:Skin class="BoxSkin" minHeight="50" minWidth="100"  xmlns:e="http://ns.egret.com/eui"
-        xmlns:w="http://ns.egret.com/wing">
-	<e:Image y="0" x="0" source="box_1_png"/>
-	<e:Image id="info" y="0" source="bg_1_png" horizontalCenter="0"/>
-	<e:Group id="animationGroup0" x="0" y="0" visible="false"/>
-	<e:Group id="animationGroup1" x="0" y="0" visible="false"/>
-</e:Skin>

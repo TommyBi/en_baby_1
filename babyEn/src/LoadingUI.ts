@@ -32,11 +32,9 @@ class LoadingUI extends egret.Sprite implements RES.PromiseTaskReporter {
     public constructor() {
         super();
         this.addEventListener(egret.Event.ADDED_TO_STAGE, this.createView, this);
-        // this.createView();
     }
-    // public person_box:any;
+
     public obj_person = {
-        // take: "person_box",		//接收返回值使用 可传可不传
         armatureName: "loading",
         animateName: "loading",								//必传
         count: -1,

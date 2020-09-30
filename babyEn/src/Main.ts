@@ -28,8 +28,6 @@
 //////////////////////////////////////////////////////////////////////////////////////
 
 class Main extends eui.UILayer {
-
-
     protected createChildren(): void {
         super.createChildren();
 
@@ -60,7 +58,6 @@ class Main extends eui.UILayer {
     private async runGame() {
         await this.loadResource()
         this.createGameScene();
-
     }
 
     private async loadResource() {
@@ -73,7 +70,7 @@ class Main extends eui.UILayer {
             await this.loadMusic();
             await this.loadTheme();
             await RES.loadGroup("preload", 0, loadingView);
-             DragonFun.resetDragon("preload");
+            DragonFun.resetDragon("preload");
             this.stage.removeChild(loadingView);
         }
         catch (e) {
@@ -97,13 +94,8 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
-        var body = new Index();
-        this.addChild(body);
         this.addChild(new XDFLogoComponent());
-
         window.platform.sendMessage(10001, "", -1);
-        // var worldGame = new WorldGame(0,0);
-        // this.addChild(worldGame)
     }
 
 

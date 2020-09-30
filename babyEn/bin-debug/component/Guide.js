@@ -42,7 +42,6 @@ var Guide = (function (_super) {
         // this.btn.source = "guide_btn" + this.lv + "_png"
         // this.num.text = info;
         // this.btn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.changeImg, this);
-        _this.pts = IndexSkin;
         _this.touchEnabled = false;
         // let tmp = this.randomNum(10, 30);
         // this.box1 = new Box(this.pts.questionItem.blue.x, 500, (this.pts.nowobj.blue >= 8 ? this.pts.nowobj.blue / 2 : this.pts.nowobj.blue) * 100, -1, this, tmp);
@@ -109,7 +108,6 @@ var Guide = (function (_super) {
         // this.tmpy = this.infogp.y;
         this.box.imgMove();
         this.box1.imgMove();
-        this.pts.questionItem.resetan();
         // if (this.winNum >= 0) {
         // 	this.info.source = "bg_1_png";
         // 	this.num.textColor = 0x347b50;
@@ -124,14 +122,12 @@ var Guide = (function (_super) {
         this.box1.winAnimate();
         this.rect_bg.visible = false;
         // this.btn.visible = false;
-        this.pts.questionItem.winAnimate();
         // this.isFirstFun();
     };
     Guide.prototype.loseAnimate = function () {
         XDFSoundManager.play("error_mp3");
         this.box.loseAnimate();
         this.box1.loseAnimate();
-        this.pts.questionItem.loseAnimate();
         // this.setBg(2);
         // this.info.visible = false;
         // this.animateArray[0] = this.animationFun(this.animateArrayObj[0], this.pts.itemId + 1, () => {
@@ -208,7 +204,6 @@ var Guide = (function (_super) {
                 if (tmp == 2) {
                     isok = false;
                     this.animateArray[0].parent.removeChild(this.animateArray[0]);
-                    this.pts.questionItem.resetTime();
                 }
                 break;
             default:

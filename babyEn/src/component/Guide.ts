@@ -2,7 +2,6 @@ class Guide extends eui.Component implements eui.UIComponent {
 	// public btn: eui.Image;
 	// public wdImg: eui.Image;
 	public lv: number;
-	public pts: GameSkin;
 	// public racTipMusic: egret.SoundChannel;
 	// public click: egret.Sound = RES.getRes("click_mp3");
 	// public succ: egret.Sound = RES.getRes("right_mp3");
@@ -52,7 +51,6 @@ class Guide extends eui.Component implements eui.UIComponent {
 		// this.btn.source = "guide_btn" + this.lv + "_png"
 		// this.num.text = info;
 		// this.btn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.changeImg, this);
-		this.pts = IndexSkin;
 		this.touchEnabled = false;
 
 		// let tmp = this.randomNum(10, 30);
@@ -136,7 +134,6 @@ class Guide extends eui.Component implements eui.UIComponent {
 		// this.tmpy = this.infogp.y;
 		this.box.imgMove();
 		this.box1.imgMove();
-		this.pts.questionItem.resetan();
 		// if (this.winNum >= 0) {
 		// 	this.info.source = "bg_1_png";
 		// 	this.num.textColor = 0x347b50;
@@ -153,7 +150,6 @@ class Guide extends eui.Component implements eui.UIComponent {
 		this.box1.winAnimate();
 		this.rect_bg.visible = false;
 		// this.btn.visible = false;
-		this.pts.questionItem.winAnimate();
 		// this.isFirstFun();
 	}
 
@@ -161,7 +157,6 @@ class Guide extends eui.Component implements eui.UIComponent {
 		XDFSoundManager.play("error_mp3");
 		this.box.loseAnimate();
 		this.box1.loseAnimate();
-		this.pts.questionItem.loseAnimate();
 		// this.setBg(2);
 		// this.info.visible = false;
 		// this.animateArray[0] = this.animationFun(this.animateArrayObj[0], this.pts.itemId + 1, () => {
@@ -251,7 +246,6 @@ class Guide extends eui.Component implements eui.UIComponent {
 				if (tmp == 2) {
 					isok = false;
 					this.animateArray[0].parent.removeChild(this.animateArray[0]);
-					this.pts.questionItem.resetTime();
 				}
 				break;
 			default:

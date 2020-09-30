@@ -75,9 +75,7 @@ var LoadingUI = (function (_super) {
     __extends(LoadingUI, _super);
     function LoadingUI() {
         var _this = _super.call(this) || this;
-        // public person_box:any;
         _this.obj_person = {
-            // take: "person_box",		//接收返回值使用 可传可不传
             armatureName: "loading",
             animateName: "loading",
             count: -1,
@@ -92,7 +90,6 @@ var LoadingUI = (function (_super) {
         _this.local_y = 697;
         _this.addEventListener(egret.Event.ADDED_TO_STAGE, _this.createView, _this);
         return _this;
-        // this.createView();
     }
     LoadingUI.prototype.createView = function () {
         return __awaiter(this, void 0, void 0, function () {
