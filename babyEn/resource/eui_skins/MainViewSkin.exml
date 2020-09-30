@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainViewSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="img_action_1_png" x="260.12" y="772.33"/>
+	<e:Image source="img_action_0_png" x="485.03" y="773.33"/>
+	<e:Image source="img_action_2_png" x="723.85" y="773.33"/>
+	<e:Image source="img_action_3_png" x="904.5" y="772.33"/>
+</e:Skin>

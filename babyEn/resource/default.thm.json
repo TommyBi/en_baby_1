@@ -6,7 +6,8 @@
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
-		"resource/eui_skins/MainScreenSkin.exml"
+		"resource/eui_skins/MainScreenSkin.exml",
+		"resource/eui_skins/MainViewSkin.exml"
 	],
 	"path": "resource/default.thm.json"
 }

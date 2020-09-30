@@ -10,18 +10,19 @@
 		"libs/modules/promise/promise.js"
 	],
 	"game": [
-		"bin-debug/Util.js",
+		"bin-debug/component/ChangeNum.js",
 		"bin-debug/AssetAdapter.js",
 		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
 		"bin-debug/Platform.js",
 		"bin-debug/ThemeAdapter.js",
+		"bin-debug/Util.js",
 		"bin-debug/DragonFun.js",
-		"bin-debug/XDFEventManager.js",
-		"bin-debug/XDFLogoComponent.js",
-		"bin-debug/XDFSoundManager.js",
-		"bin-debug/component/ChangeNum.js",
-		"bin-debug/component/Guide.js",
-		"bin-debug/component/WorldGame.js"
+		"bin-debug/component/WorldGame.js",
+		"bin-debug/manager/LayerManager.js",
+		"bin-debug/manager/XDFEventManager.js",
+		"bin-debug/manager/XDFLogoComponent.js",
+		"bin-debug/manager/XDFSoundManager.js",
+		"bin-debug/view/MainView.js"
 	]
 }

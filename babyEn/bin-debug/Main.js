@@ -164,8 +164,10 @@ var Main = (function (_super) {
      * Create scene interface
      */
     Main.prototype.createGameScene = function () {
-        this.addChild(new XDFLogoComponent());
         window.platform.sendMessage(10001, "", -1);
+        LayerManager.initLayer();
+        var mainView = new game.MainView();
+        LayerManager.UI_View.addChild(mainView);
     };
     Main.prototype.loadMusic = function () {
         return __awaiter(this, void 0, void 0, function () {

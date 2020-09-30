@@ -94,10 +94,11 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
-        this.addChild(new XDFLogoComponent());
         window.platform.sendMessage(10001, "", -1);
+        LayerManager.initLayer();
+        let mainView = new game.MainView();
+        LayerManager.UI_View.addChild(mainView);
     }
-
 
     private async loadMusic() {
         let musicSourceArr = RES.getGroupByName("music");
@@ -105,6 +106,5 @@ class Main extends eui.UILayer {
             await RES.getResAsync(musicSourceArr[i].name);
         }
     }
-
 
 }
